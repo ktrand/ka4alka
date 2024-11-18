@@ -1,0 +1,36 @@
+services:
+  nginx:
+    image: nginx:1.23.1
+    volumes:
+      - ./backend:/var/www/backend
+      - ./_docker/nginx/conf.d:/etc/nginx/conf.d
+    ports:
+      - "${NGINX_PORT}:80"
+    depends_on:
+      - backend
+    container_name: symfony_nginx
+
+  backend:
+    build:
+      context: .
+      dockerfile: _docker/Dockerfile
+    volumes:
+      - ./backend:/var/www/backend
+    depends_on:
+      - database
+    container_name: symfony_app
+
+  database:
+    image: postgres:17.0
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    container_name: db_postgres
+
+volumes:
+  pgdata:
