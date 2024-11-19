@@ -8,9 +8,10 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     zip \
     unzip \
-    libpq-dev
+    libpq-dev \
+    libsodium-dev
 
-RUN docker-php-ext-install pdo pdo_pgsql pgsql
+RUN docker-php-ext-install pdo pdo_pgsql pgsql sodium
 
 RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
