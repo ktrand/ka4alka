@@ -14,7 +14,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Id]
     #[ORM\GeneratedValue]
     #[ORM\Column]
-    private int $id;
+    public readonly int $id;
 
     #[ORM\Column(length: 180, unique: true)]
     private string $email;
@@ -83,10 +83,5 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     {
         $this->api_token = $api_token;
         return $this;
-    }
-
-    public function getId(): ?int
-    {
-        return $this->id;
     }
 }

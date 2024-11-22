@@ -28,10 +28,11 @@ class Task
     #[ORM\JoinColumn(nullable: false)]
     public User $user;
 
-    public function __construct(string $title, string $description, User $user)
+    public function __construct(string $title, string $description, User $user, bool $completed = false)
     {
         $this->title = $title;
         $this->description = $description;
         $this->user = $user;
+        $this->completed = $completed;
     }
 }

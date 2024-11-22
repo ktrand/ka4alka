@@ -22,10 +22,10 @@ class AuthController extends AbstractController
     ): JsonResponse 
     {
         $user = new User();
-        $user->setEmail($registerRequest->getEmail());
+        $user->setEmail($registerRequest->email);
         $user->setRoles(['ROLE_USER']);
         
-        $hashedPassword = $passwordHasher->hashPassword($user, $registerRequest->getPassword());
+        $hashedPassword = $passwordHasher->hashPassword($user, $registerRequest->password);
         $user->setPassword($hashedPassword);
         
         $user->setApiToken(bin2hex(random_bytes(32)));
@@ -46,8 +46,8 @@ class AuthController extends AbstractController
         EntityManagerInterface $entityManager
     ): JsonResponse 
     {
-        $email = $loginRequest->getEmail();
-        $password = $loginRequest->getPassword();
+        $email = $loginRequest->email;
+        $password = $loginRequest->password;
         
         $user = $entityManager->getRepository(User::class)->findOneBy(['email' => $email]);
         
