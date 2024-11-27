@@ -12,7 +12,6 @@ use Symfony\Component\HttpKernel\Attribute\MapRequestPayload;
 use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
-use \Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 
 class TaskController extends AbstractController
 {
@@ -25,9 +24,6 @@ class TaskController extends AbstractController
     private function checkUserAuthentication(): void
     {
         $this->user = $this->getUser();
-        if (is_null($this->user)) {
-            throw new AccessDeniedHttpException('User is not authenticated');
-        }
     }
 
     #[Route('/api/tasks', name: 'get_tasks', methods: ['GET'])]

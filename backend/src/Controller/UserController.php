@@ -24,7 +24,7 @@ class UserController extends AbstractController
         
         $usersArray = array_map(function(User $user) {
             return [
-                'id' => $user->getId(),
+                'id' => $user->id,
                 'email' => $user->getEmail(),
                 'roles' => $user->getRoles()
             ];

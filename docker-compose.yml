@@ -32,5 +32,21 @@ services:
       - "${POSTGRES_PORT}:5432"
     container_name: db_postgres
 
+  rabbitMQ:
+    image: rabbitmq:4.0.4
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    container_name: rabbitmq
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8025:8025"
+    container_name: mailhog
+
 volumes:
   pgdata:
+  rabbitmq_data:

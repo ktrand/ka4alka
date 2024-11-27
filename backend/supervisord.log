@@ -1,0 +1,80 @@
+2024-11-27 10:29:32,033 INFO supervisord started with pid 60
+2024-11-27 10:29:33,036 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:29:33,037 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:29:33,038 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:29:34,037 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:29:34,038 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:29:34,039 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:29:36,044 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:29:36,046 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:29:36,048 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:29:39,054 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:29:39,055 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-11-27 10:29:39,057 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:29:39,059 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-27 10:29:39,060 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:29:39,060 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
+2024-11-27 10:35:36,337 INFO supervisord started with pid 42
+2024-11-27 10:35:37,340 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:35:37,343 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:35:37,346 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:35:38,349 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:35:38,351 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:35:38,354 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:35:40,358 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:35:40,359 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:35:40,360 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:35:43,365 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:35:43,365 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-11-27 10:35:43,366 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:35:43,367 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-27 10:35:43,367 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:35:43,368 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
+2024-11-27 10:39:30,029 INFO supervisord started with pid 20
+2024-11-27 10:39:31,031 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:39:31,034 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:39:31,037 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:39:32,040 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:39:32,041 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:39:32,043 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:39:34,044 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:39:34,046 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:39:34,049 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:39:37,058 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:39:37,059 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-11-27 10:39:37,064 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:39:37,064 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-27 10:39:37,066 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:39:37,067 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
+2024-11-27 10:44:12,004 INFO supervisord started with pid 19
+2024-11-27 10:44:13,006 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:44:13,008 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:44:13,010 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:44:14,013 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:44:14,016 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:44:14,024 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:44:16,031 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:44:16,034 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:44:16,038 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:44:19,047 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:44:19,049 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-11-27 10:44:19,052 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:44:19,054 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-27 10:44:19,057 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:44:19,059 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
+2024-11-27 10:52:11,255 INFO supervisord started with pid 20
+2024-11-27 10:52:12,257 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:52:12,260 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:52:12,263 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:52:13,266 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:52:13,269 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:52:13,273 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:52:15,280 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:52:15,283 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:52:15,285 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:52:18,291 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
+2024-11-27 10:52:18,293 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-11-27 10:52:18,297 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-27 10:52:18,300 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-27 10:52:18,305 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
+2024-11-27 10:52:18,307 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
