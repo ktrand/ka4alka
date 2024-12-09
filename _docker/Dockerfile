@@ -9,13 +9,12 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     libpq-dev \
-    supervisor \
+    libsodium-dev \
     cron \
-    libsodium-dev
+    supervisor\
+    nano
 
 RUN docker-php-ext-install pdo pdo_pgsql pgsql sodium
-
-COPY ./backend/docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
@@ -26,16 +25,8 @@ WORKDIR /var/www/backend
 COPY --from=composer:2.8.2 /usr/bin/composer /usr/bin/composer
 
 RUN chown -R www-data:www-data /var/www/backend
+COPY _docker/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
+COPY _docker/cron/my-cron /etc/cron.d/my-cron
+RUN chmod 0644 /etc/cron.d/my-cron && crontab /etc/cron.d/my-cron
 
-ADD ./backend/docker/crontab /etc/cron.d/symfony-crontab
-RUN crontab -u www-data /etc/cron.d/symfony-crontab
-RUN chmod u+s /usr/sbin/cron
-
-RUN usermod -s /bin/bash www-data
-
-
-USER www-data
-
-EXPOSE 9000
-
-ENTRYPOINT ["/bin/sh", "/var/www/backend/docker/entrypoint.sh"]
+CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
