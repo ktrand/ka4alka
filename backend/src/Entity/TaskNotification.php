@@ -31,7 +31,7 @@ class TaskNotification
     public string $notificationType;
 
     #[ORM\Column(type: 'boolean', options: ['default' => false])]
-    public bool $isSent;
+    public bool $isSent = false;
 
     public function __construct()
     {}
@@ -41,7 +41,7 @@ class TaskNotification
         'email' => 'Email',
     ];
 
-    public function getNotificationTypes(): array
+    public static function getNotificationTypes(): array
     {
         return array_keys(self::NOTIFICATION_TYPES);
     }

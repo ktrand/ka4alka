@@ -17,9 +17,8 @@ class SendNotificationsCommand extends Command
     private EntityManagerInterface $entityManager;
     private MessageBusInterface $bus;
 
-    public function __construct(EntityManagerInterface $entityManager, MessageBusInterface $bus, LoggerInterface $logger)
+    public function __construct(EntityManagerInterface $entityManager, MessageBusInterface $bus)
     {
-        $logger->error('Zashel');
         parent::__construct(self::$defaultName);
         $this->entityManager = $entityManager;
         $this->bus = $bus;
@@ -27,23 +26,24 @@ class SendNotificationsCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $output->writeln('Running the task every minute.');
-//        $now = new \DateTime();
-//        $notifications = $this->entityManager->getRepository(TaskNotification::class)
-//            ->findBy(['triggerTime' => $now]);
-//        foreach ($notifications as $notification) {
-//            $this->bus->dispatch(new TaskNotificationMessage(
-//                $notification->message,
-//                $notification->notificationType,
-//                $notification->task->id,
-//                $notification->triggerTime
-//            ));
-//
-//            $notification->isSent = true;
-//            $this->entityManager->persist($notification);
-//        }
-//
-//        $this->entityManager->flush();
+        $now = new \DateTime();
+        $output->writeln('Running the task every minute. - ' . $now->format('Y-m-d H:i:s'));
+
+        $notifications = $this->entityManager->getRepository(TaskNotification::class)
+            ->findBy(['triggerTime' => $now]);
+        foreach ($notifications as $notification) {
+            $this->bus->dispatch(new TaskNotificationMessage(
+                $notification->message,
+                $notification->notificationType,
+                $notification->task->id,
+                $notification->triggerTime
+            ));
+
+            $notification->isSent = true;
+            $this->entityManager->persist($notification);
+        }
+
+        $this->entityManager->flush();
 
         return Command::SUCCESS;
     }

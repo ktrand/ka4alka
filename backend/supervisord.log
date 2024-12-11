@@ -1,80 +1,343 @@
-2024-11-27 10:29:32,033 INFO supervisord started with pid 60
-2024-11-27 10:29:33,036 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:29:33,037 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:29:33,038 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:29:34,037 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:29:34,038 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:29:34,039 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:29:36,044 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:29:36,046 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:29:36,048 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:29:39,054 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:29:39,055 INFO gave up: cron entered FATAL state, too many start retries too quickly
-2024-11-27 10:29:39,057 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:29:39,059 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
-2024-11-27 10:29:39,060 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:29:39,060 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
-2024-11-27 10:35:36,337 INFO supervisord started with pid 42
-2024-11-27 10:35:37,340 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:35:37,343 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:35:37,346 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:35:38,349 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:35:38,351 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:35:38,354 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:35:40,358 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:35:40,359 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:35:40,360 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:35:43,365 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:35:43,365 INFO gave up: cron entered FATAL state, too many start retries too quickly
-2024-11-27 10:35:43,366 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:35:43,367 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
-2024-11-27 10:35:43,367 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:35:43,368 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
-2024-11-27 10:39:30,029 INFO supervisord started with pid 20
-2024-11-27 10:39:31,031 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:39:31,034 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:39:31,037 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:39:32,040 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:39:32,041 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:39:32,043 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:39:34,044 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:39:34,046 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:39:34,049 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:39:37,058 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:39:37,059 INFO gave up: cron entered FATAL state, too many start retries too quickly
-2024-11-27 10:39:37,064 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:39:37,064 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
-2024-11-27 10:39:37,066 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:39:37,067 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
-2024-11-27 10:44:12,004 INFO supervisord started with pid 19
-2024-11-27 10:44:13,006 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:44:13,008 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:44:13,010 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:44:14,013 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:44:14,016 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:44:14,024 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:44:16,031 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:44:16,034 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:44:16,038 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:44:19,047 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:44:19,049 INFO gave up: cron entered FATAL state, too many start retries too quickly
-2024-11-27 10:44:19,052 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:44:19,054 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
-2024-11-27 10:44:19,057 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:44:19,059 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
-2024-11-27 10:52:11,255 INFO supervisord started with pid 20
-2024-11-27 10:52:12,257 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:52:12,260 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:52:12,263 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:52:13,266 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:52:13,269 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:52:13,273 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:52:15,280 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:52:15,283 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:52:15,285 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:52:18,291 INFO spawnerr: unknown error making dispatchers for 'cron': EACCES
-2024-11-27 10:52:18,293 INFO gave up: cron entered FATAL state, too many start retries too quickly
-2024-11-27 10:52:18,297 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
-2024-11-27 10:52:18,300 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
-2024-11-27 10:52:18,305 INFO spawnerr: unknown error making dispatchers for 'symfony-console': EACCES
-2024-11-27 10:52:18,307 INFO gave up: symfony-console entered FATAL state, too many start retries too quickly
+2024-12-09 13:27:19,695 WARN received SIGQUIT indicating exit request
+2024-12-09 13:27:19,698 INFO waiting for php-fpm to die
+2024-12-09 13:27:20,708 INFO stopped: php-fpm (exit status 0)
+2024-12-09 13:27:33,179 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 13:27:33,189 INFO supervisord started with pid 1
+2024-12-09 13:27:34,195 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 13:27:34,204 INFO spawned: 'cron' with pid 8
+2024-12-09 13:27:35,323 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 13:27:35,324 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 13:37:47,783 WARN exited: cron (terminated by SIGTERM; not expected)
+2024-12-09 13:37:48,787 INFO spawned: 'cron' with pid 45
+2024-12-09 13:37:48,793 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:37:49,797 INFO spawned: 'cron' with pid 46
+2024-12-09 13:37:49,803 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:37:51,806 INFO spawned: 'cron' with pid 47
+2024-12-09 13:37:51,821 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:37:54,830 INFO spawned: 'cron' with pid 48
+2024-12-09 13:37:54,853 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:37:55,856 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-12-09 13:45:02,419 INFO reaped unknown pid 103 (exit status 0)
+2024-12-09 13:46:02,504 INFO reaped unknown pid 112 (exit status 0)
+2024-12-09 13:47:02,584 INFO reaped unknown pid 122 (exit status 0)
+2024-12-09 13:47:14,603 INFO reaped unknown pid 44 (terminated by SIGTERM)
+2024-12-09 13:48:02,667 INFO reaped unknown pid 150 (exit status 0)
+2024-12-09 13:49:02,746 INFO reaped unknown pid 158 (exit status 0)
+2024-12-09 13:49:46,806 WARN received SIGQUIT indicating exit request
+2024-12-09 13:49:46,806 INFO waiting for php-fpm to die
+2024-12-09 13:49:47,817 INFO stopped: php-fpm (exit status 0)
+2024-12-09 13:50:00,331 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 13:50:00,344 INFO supervisord started with pid 1
+2024-12-09 13:50:01,347 INFO spawned: 'php-fpm' with pid 6
+2024-12-09 13:50:01,353 INFO spawned: 'cron' with pid 7
+2024-12-09 13:50:02,450 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 13:50:02,451 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 13:51:01,527 INFO reaped unknown pid 19 (exit status 0)
+2024-12-09 13:52:01,613 INFO reaped unknown pid 36 (exit status 0)
+2024-12-09 13:53:01,694 INFO reaped unknown pid 49 (exit status 0)
+2024-12-09 13:53:11,710 WARN exited: cron (terminated by SIGTERM; not expected)
+2024-12-09 13:53:12,717 INFO spawned: 'cron' with pid 67
+2024-12-09 13:53:12,730 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:53:13,737 INFO spawned: 'cron' with pid 68
+2024-12-09 13:53:13,759 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:53:15,765 INFO spawned: 'cron' with pid 69
+2024-12-09 13:53:15,771 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:53:18,779 INFO spawned: 'cron' with pid 70
+2024-12-09 13:53:18,801 WARN exited: cron (exit status 1; not expected)
+2024-12-09 13:53:19,804 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-12-09 13:54:01,861 INFO reaped unknown pid 81 (exit status 0)
+2024-12-09 13:54:03,866 INFO reaped unknown pid 66 (terminated by SIGTERM)
+2024-12-09 13:55:02,947 INFO reaped unknown pid 109 (exit status 0)
+2024-12-09 13:56:03,031 INFO reaped unknown pid 117 (exit status 0)
+2024-12-09 13:57:01,107 INFO reaped unknown pid 125 (exit status 0)
+2024-12-09 13:58:01,185 INFO reaped unknown pid 137 (exit status 0)
+2024-12-09 13:59:01,261 INFO reaped unknown pid 147 (exit status 0)
+2024-12-09 14:00:01,337 INFO reaped unknown pid 160 (exit status 0)
+2024-12-09 14:01:01,413 INFO reaped unknown pid 174 (exit status 0)
+2024-12-09 14:02:01,488 INFO reaped unknown pid 187 (exit status 0)
+2024-12-09 14:02:41,542 INFO reaped unknown pid 98 (terminated by SIGTERM)
+2024-12-09 14:03:02,567 INFO reaped unknown pid 210 (exit status 0)
+2024-12-09 14:03:47,630 WARN received SIGQUIT indicating exit request
+2024-12-09 14:03:47,631 INFO waiting for php-fpm to die
+2024-12-09 14:03:48,638 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:04:56,755 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:04:56,777 INFO supervisord started with pid 1
+2024-12-09 14:04:57,780 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:04:57,784 INFO spawned: 'cron' with pid 8
+2024-12-09 14:04:58,872 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:04:58,873 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:05:01,877 INFO reaped unknown pid 14 (exit status 0)
+2024-12-09 14:06:01,960 INFO reaped unknown pid 37 (exit status 0)
+2024-12-09 14:07:03,040 INFO reaped unknown pid 50 (exit status 0)
+2024-12-09 14:08:03,118 INFO reaped unknown pid 56 (exit status 0)
+2024-12-09 14:09:01,189 INFO reaped unknown pid 62 (exit status 0)
+2024-12-09 14:10:01,262 INFO reaped unknown pid 68 (exit status 0)
+2024-12-09 14:11:01,343 INFO reaped unknown pid 75 (exit status 0)
+2024-12-09 14:12:01,425 INFO reaped unknown pid 81 (exit status 0)
+2024-12-09 14:13:01,504 INFO reaped unknown pid 88 (exit status 0)
+2024-12-09 14:14:01,581 INFO reaped unknown pid 95 (exit status 0)
+2024-12-09 14:14:24,258 WARN exited: cron (terminated by SIGTERM; not expected)
+2024-12-09 14:14:25,264 INFO spawned: 'cron' with pid 113
+2024-12-09 14:14:25,288 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:14:26,292 INFO spawned: 'cron' with pid 114
+2024-12-09 14:14:26,299 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:14:28,308 INFO spawned: 'cron' with pid 115
+2024-12-09 14:14:28,350 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:14:31,364 INFO spawned: 'cron' with pid 116
+2024-12-09 14:14:31,386 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:14:32,390 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-12-09 14:14:43,407 WARN received SIGQUIT indicating exit request
+2024-12-09 14:14:43,407 INFO waiting for php-fpm to die
+2024-12-09 14:14:44,415 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:14:53,556 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:14:53,565 INFO supervisord started with pid 1
+2024-12-09 14:14:54,570 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:14:54,573 INFO spawned: 'cron' with pid 8
+2024-12-09 14:14:55,646 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:14:55,646 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:15:01,654 INFO reaped unknown pid 21 (exit status 0)
+2024-12-09 14:15:51,718 WARN received SIGQUIT indicating exit request
+2024-12-09 14:15:51,720 INFO waiting for php-fpm, cron to die
+2024-12-09 14:15:51,721 WARN stopped: cron (terminated by SIGTERM)
+2024-12-09 14:15:51,751 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:16:01,394 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:16:01,421 INFO supervisord started with pid 1
+2024-12-09 14:16:02,425 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:16:02,440 INFO spawned: 'cron' with pid 8
+2024-12-09 14:16:03,539 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:16:03,540 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:17:01,615 INFO reaped unknown pid 36 (exit status 0)
+2024-12-09 14:17:04,620 INFO reaped unknown pid 37 (exit status 0)
+2024-12-09 14:18:02,699 INFO reaped unknown pid 49 (exit status 0)
+2024-12-09 14:18:05,706 INFO reaped unknown pid 48 (exit status 0)
+2024-12-09 14:19:01,782 INFO reaped unknown pid 60 (exit status 0)
+2024-12-09 14:19:04,788 INFO reaped unknown pid 61 (exit status 0)
+2024-12-09 14:20:01,869 INFO reaped unknown pid 72 (exit status 0)
+2024-12-09 14:20:04,876 INFO reaped unknown pid 73 (exit status 0)
+2024-12-09 14:21:01,956 INFO reaped unknown pid 84 (exit status 0)
+2024-12-09 14:21:04,961 INFO reaped unknown pid 85 (exit status 0)
+2024-12-09 14:22:02,043 INFO reaped unknown pid 97 (exit status 0)
+2024-12-09 14:22:05,049 INFO reaped unknown pid 96 (exit status 0)
+2024-12-09 14:23:02,129 INFO reaped unknown pid 109 (exit status 0)
+2024-12-09 14:23:05,135 INFO reaped unknown pid 108 (exit status 0)
+2024-12-09 14:24:02,217 INFO reaped unknown pid 120 (exit status 0)
+2024-12-09 14:24:05,224 INFO reaped unknown pid 121 (exit status 0)
+2024-12-09 14:25:02,303 INFO reaped unknown pid 132 (exit status 0)
+2024-12-09 14:25:05,310 INFO reaped unknown pid 133 (exit status 0)
+2024-12-09 14:26:02,389 INFO reaped unknown pid 144 (exit status 0)
+2024-12-09 14:26:05,394 INFO reaped unknown pid 145 (exit status 0)
+2024-12-09 14:26:24,208 WARN exited: cron (terminated by SIGTERM; not expected)
+2024-12-09 14:26:25,215 INFO spawned: 'cron' with pid 165
+2024-12-09 14:26:25,237 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:26:26,246 INFO spawned: 'cron' with pid 166
+2024-12-09 14:26:26,266 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:26:28,276 INFO spawned: 'cron' with pid 167
+2024-12-09 14:26:28,300 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:26:31,310 INFO spawned: 'cron' with pid 168
+2024-12-09 14:26:31,336 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:26:32,341 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-12-09 14:27:01,381 INFO reaped unknown pid 177 (exit status 0)
+2024-12-09 14:27:01,382 INFO reaped unknown pid 179 (exit status 0)
+2024-12-09 14:28:01,462 INFO reaped unknown pid 191 (exit status 0)
+2024-12-09 14:28:04,491 INFO reaped unknown pid 192 (exit status 0)
+2024-12-09 14:29:01,571 INFO reaped unknown pid 210 (exit status 0)
+2024-12-09 14:29:04,577 INFO reaped unknown pid 209 (exit status 0)
+2024-12-09 14:30:01,653 INFO reaped unknown pid 223 (exit status 0)
+2024-12-09 14:30:04,661 INFO reaped unknown pid 224 (exit status 0)
+2024-12-09 14:31:01,740 INFO reaped unknown pid 235 (exit status 0)
+2024-12-09 14:31:04,745 INFO reaped unknown pid 236 (exit status 0)
+2024-12-09 14:32:01,822 INFO reaped unknown pid 255 (exit status 0)
+2024-12-09 14:32:04,828 INFO reaped unknown pid 254 (exit status 0)
+2024-12-09 14:32:25,859 INFO reaped unknown pid 164 (terminated by SIGTERM)
+2024-12-09 14:32:37,875 WARN received SIGQUIT indicating exit request
+2024-12-09 14:32:37,876 INFO waiting for php-fpm to die
+2024-12-09 14:32:38,893 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:32:52,465 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:32:52,475 INFO supervisord started with pid 1
+2024-12-09 14:32:53,480 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:32:53,483 INFO spawned: 'cron' with pid 8
+2024-12-09 14:32:54,586 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:32:54,587 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:33:02,599 INFO reaped unknown pid 18 (exit status 0)
+2024-12-09 14:33:05,606 INFO reaped unknown pid 17 (exit status 0)
+2024-12-09 14:34:02,684 INFO reaped unknown pid 52 (exit status 0)
+2024-12-09 14:34:05,690 INFO reaped unknown pid 51 (exit status 0)
+2024-12-09 14:35:02,768 INFO reaped unknown pid 65 (exit status 0)
+2024-12-09 14:35:05,774 INFO reaped unknown pid 64 (exit status 0)
+2024-12-09 14:36:01,847 INFO reaped unknown pid 84 (exit status 0)
+2024-12-09 14:36:04,853 INFO reaped unknown pid 85 (exit status 0)
+2024-12-09 14:36:47,913 WARN received SIGQUIT indicating exit request
+2024-12-09 14:36:47,918 INFO waiting for php-fpm, cron to die
+2024-12-09 14:36:47,923 WARN stopped: cron (terminated by SIGTERM)
+2024-12-09 14:36:47,944 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:37:01,265 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:37:01,281 INFO supervisord started with pid 1
+2024-12-09 14:37:02,287 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:37:02,293 INFO spawned: 'cron' with pid 8
+2024-12-09 14:37:03,446 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:37:03,447 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:38:01,524 INFO reaped unknown pid 30 (exit status 0)
+2024-12-09 14:39:01,602 INFO reaped unknown pid 36 (exit status 0)
+2024-12-09 14:39:40,655 WARN received SIGQUIT indicating exit request
+2024-12-09 14:39:40,656 INFO waiting for php-fpm, cron to die
+2024-12-09 14:39:40,656 WARN stopped: cron (terminated by SIGTERM)
+2024-12-09 14:39:40,663 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:41:01,396 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:41:01,407 INFO supervisord started with pid 1
+2024-12-09 14:41:02,410 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:41:02,413 INFO spawned: 'cron' with pid 8
+2024-12-09 14:41:03,466 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:41:03,467 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:42:01,537 INFO reaped unknown pid 33 (exit status 0)
+2024-12-09 14:42:04,543 INFO reaped unknown pid 34 (exit status 0)
+2024-12-09 14:43:01,615 INFO reaped unknown pid 45 (exit status 0)
+2024-12-09 14:43:04,621 INFO reaped unknown pid 46 (exit status 0)
+2024-12-09 14:43:05,625 WARN received SIGQUIT indicating exit request
+2024-12-09 14:43:05,626 INFO waiting for php-fpm, cron to die
+2024-12-09 14:43:05,627 WARN stopped: cron (terminated by SIGTERM)
+2024-12-09 14:43:05,636 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:44:27,992 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:44:28,027 INFO supervisord started with pid 1
+2024-12-09 14:44:29,031 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:44:29,035 INFO spawned: 'cron' with pid 8
+2024-12-09 14:44:30,126 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:44:30,132 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:45:02,181 INFO reaped unknown pid 30 (exit status 0)
+2024-12-09 14:46:01,259 INFO reaped unknown pid 49 (exit status 0)
+2024-12-09 14:46:01,628 WARN exited: cron (terminated by SIGTERM; not expected)
+2024-12-09 14:46:02,633 INFO spawned: 'cron' with pid 67
+2024-12-09 14:46:02,642 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:46:03,649 INFO spawned: 'cron' with pid 68
+2024-12-09 14:46:03,666 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:46:05,671 INFO spawned: 'cron' with pid 69
+2024-12-09 14:46:05,678 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:46:08,685 INFO spawned: 'cron' with pid 70
+2024-12-09 14:46:08,702 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:46:08,703 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-12-09 14:47:02,766 INFO reaped unknown pid 81 (exit status 0)
+2024-12-09 14:47:29,796 INFO reaped unknown pid 66 (terminated by SIGTERM)
+2024-12-09 14:48:02,836 INFO reaped unknown pid 109 (exit status 0)
+2024-12-09 14:49:02,914 INFO reaped unknown pid 122 (exit status 0)
+2024-12-09 14:50:02,985 INFO reaped unknown pid 130 (exit status 0)
+2024-12-09 14:50:35,028 INFO reaped unknown pid 103 (terminated by SIGTERM)
+2024-12-09 14:51:02,063 INFO reaped unknown pid 159 (exit status 0)
+2024-12-09 14:52:02,141 INFO reaped unknown pid 175 (exit status 0)
+2024-12-09 14:53:02,218 INFO reaped unknown pid 193 (exit status 0)
+2024-12-09 14:53:07,224 WARN received SIGQUIT indicating exit request
+2024-12-09 14:53:07,225 INFO waiting for php-fpm to die
+2024-12-09 14:53:08,232 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:53:20,676 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:53:20,684 INFO supervisord started with pid 1
+2024-12-09 14:53:21,684 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:53:21,689 INFO spawned: 'cron' with pid 8
+2024-12-09 14:53:22,757 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:53:22,762 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:54:01,814 INFO reaped unknown pid 30 (exit status 0)
+2024-12-09 14:54:35,093 WARN exited: cron (terminated by SIGTERM; not expected)
+2024-12-09 14:54:36,100 INFO spawned: 'cron' with pid 54
+2024-12-09 14:54:36,122 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:54:37,129 INFO spawned: 'cron' with pid 55
+2024-12-09 14:54:37,151 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:54:39,158 INFO spawned: 'cron' with pid 56
+2024-12-09 14:54:39,172 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:54:42,180 INFO spawned: 'cron' with pid 57
+2024-12-09 14:54:42,201 WARN exited: cron (exit status 1; not expected)
+2024-12-09 14:54:43,204 INFO gave up: cron entered FATAL state, too many start retries too quickly
+2024-12-09 14:55:01,226 INFO reaped unknown pid 67 (exit status 0)
+2024-12-09 14:56:01,303 INFO reaped unknown pid 73 (exit status 0)
+2024-12-09 14:56:47,367 WARN received SIGQUIT indicating exit request
+2024-12-09 14:56:47,368 INFO waiting for php-fpm to die
+2024-12-09 14:56:48,388 INFO stopped: php-fpm (exit status 0)
+2024-12-09 14:56:49,509 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 14:56:49,516 INFO supervisord started with pid 1
+2024-12-09 14:56:50,525 INFO spawned: 'php-fpm' with pid 7
+2024-12-09 14:56:50,544 INFO spawned: 'cron' with pid 8
+2024-12-09 14:56:51,621 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:56:51,623 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 14:57:02,641 INFO reaped unknown pid 14 (exit status 0)
+2024-12-09 14:58:01,718 INFO reaped unknown pid 26 (exit status 0)
+2024-12-09 14:59:01,797 INFO reaped unknown pid 49 (exit status 0)
+2024-12-09 14:59:33,844 WARN received SIGQUIT indicating exit request
+2024-12-09 14:59:33,845 INFO waiting for php-fpm, cron to die
+2024-12-09 14:59:33,846 WARN stopped: cron (terminated by SIGTERM)
+2024-12-09 14:59:33,854 INFO stopped: php-fpm (exit status 0)
+2024-12-09 15:22:29,604 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-09 15:22:29,623 INFO supervisord started with pid 1
+2024-12-09 15:22:30,626 INFO spawned: 'php-fpm' with pid 8
+2024-12-09 15:22:30,631 INFO spawned: 'cron' with pid 9
+2024-12-09 15:22:32,071 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-09 15:22:32,072 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 06:14:14,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-10 06:14:14,363 INFO supervisord started with pid 1
+2024-12-10 06:14:15,367 INFO spawned: 'php-fpm' with pid 8
+2024-12-10 06:14:15,382 INFO spawned: 'cron' with pid 9
+2024-12-10 06:14:16,717 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 06:14:16,719 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 09:28:51,336 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-10 09:28:51,340 INFO supervisord started with pid 1
+2024-12-10 09:28:52,343 INFO spawned: 'php-fpm' with pid 7
+2024-12-10 09:28:52,417 INFO spawned: 'cron' with pid 8
+2024-12-10 09:28:54,033 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 09:28:54,034 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 09:30:00,915 WARN received SIGQUIT indicating exit request
+2024-12-10 09:30:00,915 INFO waiting for php-fpm, cron to die
+2024-12-10 09:30:00,916 WARN stopped: cron (terminated by SIGTERM)
+2024-12-10 09:30:00,920 INFO stopped: php-fpm (exit status 0)
+2024-12-10 09:30:18,399 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-10 09:30:18,403 INFO supervisord started with pid 1
+2024-12-10 09:30:19,405 INFO spawned: 'php-fpm' with pid 7
+2024-12-10 09:30:19,408 INFO spawned: 'cron' with pid 8
+2024-12-10 09:30:20,555 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 09:30:20,555 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 09:30:47,097 WARN received SIGQUIT indicating exit request
+2024-12-10 09:30:47,097 INFO waiting for php-fpm, cron to die
+2024-12-10 09:30:47,098 WARN stopped: cron (terminated by SIGTERM)
+2024-12-10 09:30:47,104 INFO stopped: php-fpm (exit status 0)
+2024-12-10 09:30:54,090 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-10 09:30:54,093 INFO supervisord started with pid 1
+2024-12-10 09:30:55,097 INFO spawned: 'php-fpm' with pid 7
+2024-12-10 09:30:55,100 INFO spawned: 'cron' with pid 8
+2024-12-10 09:30:56,195 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 09:30:56,195 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-10 09:31:01,498 INFO reaped unknown pid 14 (exit status 0)
+2024-12-10 09:32:01,569 INFO reaped unknown pid 27 (exit status 0)
+2024-12-10 11:21:53,619 WARN received SIGQUIT indicating exit request
+2024-12-10 11:21:53,620 INFO waiting for php-fpm, cron to die
+2024-12-10 11:21:53,620 WARN stopped: cron (terminated by SIGTERM)
+2024-12-10 11:21:53,627 INFO stopped: php-fpm (exit status 0)
+2024-12-11 11:49:25,672 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-11 11:49:25,675 INFO supervisord started with pid 1
+2024-12-11 11:49:26,676 INFO spawned: 'php-fpm' with pid 8
+2024-12-11 11:49:26,679 INFO spawned: 'cron' with pid 9
+2024-12-11 11:49:27,811 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-11 11:49:27,811 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-11 13:52:44,583 WARN received SIGQUIT indicating exit request
+2024-12-11 13:52:44,586 INFO waiting for php-fpm, cron to die
+2024-12-11 13:52:44,588 WARN stopped: cron (terminated by SIGTERM)
+2024-12-11 13:52:44,606 INFO stopped: php-fpm (exit status 0)
+2024-12-11 13:54:05,235 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-11 13:54:05,244 INFO supervisord started with pid 1
+2024-12-11 13:54:06,247 INFO spawned: 'php-fpm' with pid 7
+2024-12-11 13:54:06,250 INFO spawned: 'cron' with pid 8
+2024-12-11 13:54:07,379 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-11 13:54:07,379 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-11 14:08:52,498 WARN received SIGQUIT indicating exit request
+2024-12-11 14:08:52,499 INFO waiting for php-fpm, cron to die
+2024-12-11 14:08:52,499 WARN stopped: cron (terminated by SIGTERM)
+2024-12-11 14:08:52,505 INFO stopped: php-fpm (exit status 0)
+2024-12-11 14:10:32,546 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-11 14:10:32,550 INFO supervisord started with pid 1
+2024-12-11 14:10:33,553 INFO spawned: 'php-fpm' with pid 7
+2024-12-11 14:10:33,555 INFO spawned: 'cron' with pid 8
+2024-12-11 14:10:34,684 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-11 14:10:34,684 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-11 15:01:34,522 WARN received SIGQUIT indicating exit request
+2024-12-11 15:01:34,522 INFO waiting for php-fpm, cron to die
+2024-12-11 15:01:34,523 WARN stopped: cron (terminated by SIGTERM)
+2024-12-11 15:01:34,529 INFO stopped: php-fpm (exit status 0)
+2024-12-11 15:02:11,557 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-12-11 15:02:11,561 INFO supervisord started with pid 1
+2024-12-11 15:02:12,564 INFO spawned: 'php-fpm' with pid 8
+2024-12-11 15:02:12,573 INFO spawned: 'cron' with pid 9
+2024-12-11 15:02:13,677 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-11 15:02:13,677 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

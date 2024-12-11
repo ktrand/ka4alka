@@ -3,7 +3,6 @@
 namespace App\DTO\TaskNotification;
 
 use App\Entity\TaskNotification;
-use DateTime;
 use Symfony\Component\Validator\Constraints as Assert;
 
 class CreateRequest
@@ -18,7 +17,7 @@ class CreateRequest
 
         #[Assert\NotBlank]
         #[Assert\DateTime]
-        public readonly DateTime $trigger_time,
+        public string $trigger_time,
 
         #[Assert\Choice([
             'callback' => [TaskNotification::class, 'getNotificationTypes'],

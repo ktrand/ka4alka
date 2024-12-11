@@ -6,8 +6,13 @@ use App\DTO\TaskNotification\CreateRequest;
 use App\DTO\TaskNotification\UpdateRequest;
 use App\Entity\Task;
 use App\Entity\TaskNotification;
+use App\Message\TaskNotificationMessage;
+use DateTime;
 use Doctrine\ORM\EntityManagerInterface;
+use JetBrains\PhpStorm\NoReturn;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpKernel\Attribute\MapRequestPayload;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
@@ -25,11 +30,11 @@ class TaskNotificationController extends AbstractController
         $this->entityManager = $entityManager;
     }
 
-    #[Route('', methods: ['POST'])]
-    public function addNotification(CreateRequest $request): JsonResponse
+    #[Route('', name: 'store_task_notification', methods: ['POST'])]
+    public function store(#[MapRequestPayload] CreateRequest $request): JsonResponse
     {
+        $this->test();
         $task = $this->getTask($request->task_id);
-        
         $this->checkAccess($task->user->id);
 
         $taskNotification = new TaskNotification();
@@ -106,7 +111,34 @@ class TaskNotificationController extends AbstractController
     {
         $taskNotification->task = $task;
         $taskNotification->message = $request->message;
-        $taskNotification->triggerTime = $request->trigger_time;
+        $taskNotification->triggerTime = DateTime::createFromFormat('Y-m-d H:i:s', $request->trigger_time);;
         $taskNotification->notificationType = $request?->notification_type;
+    }
+
+    private function test()
+    {
+        $now = new \DateTime();
+        $start = $now->format('Y-m-d H:i:00');
+        $end = (clone $now)->modify('+1 minute')->format('Y-m-d H:i:00');
+        $qb = $this->entityManager->createQueryBuilder();
+        $qb->select('tn')
+            ->from(TaskNotification::class, 'tn')
+            ->where($qb->expr()->between('tn.triggerTime', ':start', ':end'))
+            ->setParameter('start', $start)
+            ->setParameter('end', $end);
+        $notifications = $qb->getQuery()->getResult();
+        foreach ($notifications as $notification) {
+            $this->bus->dispatch(new TaskNotificationMessage(
+                $notification->message,
+                $notification->notificationType,
+                $notification->task->id,
+                $notification->triggerTime
+            ));
+
+            $notification->isSent = true;
+            $this->entityManager->persist($notification);
+        }
+
+        $this->entityManager->flush();
     }
 }

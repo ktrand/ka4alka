@@ -32,7 +32,7 @@ services:
       - "${POSTGRES_PORT}:5432"
     container_name: db_postgres
 
-  rabbitMQ:
+  rabbitmq:
     image: rabbitmq:4.0.4-management
     ports:
       - "5672:5672"

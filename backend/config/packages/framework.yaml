@@ -1,5 +1,15 @@
 # see https://symfony.com/doc/current/reference/configuration/framework.html
 framework:
+    messenger:
+        transports:
+            async:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN)%'
+                options:
+                    auto_setup: false
+
+        routing:
+            'App\Message\SendEmailMessage': async
+
     secret: '%env(APP_SECRET)%'
     #csrf_protection: true
 

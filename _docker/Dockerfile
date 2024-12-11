@@ -16,6 +16,10 @@ RUN apt-get update && apt-get install -y \
 
 RUN docker-php-ext-install pdo pdo_pgsql pgsql sodium
 
+RUN apt install -y librabbitmq-dev \
+    && pecl install amqp xdebug \
+    && docker-php-ext-enable --ini-name 05-opcache.ini opcache amqp xdebug
+
 RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
