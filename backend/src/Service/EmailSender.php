@@ -2,13 +2,19 @@
 
 namespace App\Service;
 
+use App\Interface\SenderInterface;
+use Psr\Log\LoggerInterface;
+use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Email;
 
-class EmailSender
+class EmailSender implements SenderInterface
 {
-    public function __construct(private MailerInterface $mailer) {}
+    public function __construct(private readonly MailerInterface $mailer) {}
 
+    /**
+     * @throws TransportExceptionInterface
+     */
     public function send(string $recipient, string $subject, string $body): void
     {
         $email = (new Email())

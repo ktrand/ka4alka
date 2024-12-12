@@ -36,9 +36,12 @@ class TaskNotification
     public function __construct()
     {}
 
+    const NOTIFICATION_TYPE_EMAIL = 'email';
+    const NOTIFICATION_TYPE_SMS = 'sms';
+
     const NOTIFICATION_TYPES = [
-        'sms' => 'SMS',
-        'email' => 'Email',
+        self::NOTIFICATION_TYPE_SMS => 'SMS',
+        self::NOTIFICATION_TYPE_EMAIL => 'Email',
     ];
 
     public static function getNotificationTypes(): array

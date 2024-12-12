@@ -5,10 +5,10 @@ framework:
             async:
                 dsn: '%env(MESSENGER_TRANSPORT_DSN)%'
                 options:
-                    auto_setup: false
+                    auto_setup: true
 
         routing:
-            'App\Message\SendEmailMessage': async
+            'App\Message\TaskNotificationMessage': async
 
     secret: '%env(APP_SECRET)%'
     #csrf_protection: true
