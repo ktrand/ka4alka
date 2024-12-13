@@ -18,6 +18,7 @@ services:
       - ./backend:/var/www/backend
     depends_on:
       - database
+      - rabbitmq
     container_name: symfony_app
 
   database:

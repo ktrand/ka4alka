@@ -9,7 +9,7 @@ use Symfony\Component\Messenger\Attribute\AsMessageHandler;
 use App\Factory\SenderFactory;
 
 #[AsMessageHandler]
-readonly class SendNotificationHandler
+class SendNotificationHandler
 {
 
     public function __construct(

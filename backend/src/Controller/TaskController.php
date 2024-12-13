@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\DTO\Task\CreateRequest;
 use App\DTO\Task\UpdateRequest;
 use App\Entity\Task;
+use Doctrine\DBAL\Logging\DebugStack;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -30,6 +31,7 @@ class TaskController extends AbstractController
     #[IsGranted('ROLE_USER')]
     public function get(): JsonResponse
     {
+        $debugStack = new DebugStack();
         $this->checkUserAuthentication();
 
         $tasks = $this->entityManager

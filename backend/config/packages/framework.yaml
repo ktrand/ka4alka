@@ -10,6 +10,9 @@ framework:
         routing:
             'App\Message\TaskNotificationMessage': async
 
+    scheduler:
+        enabled: true
+
     secret: '%env(APP_SECRET)%'
     #csrf_protection: true
 

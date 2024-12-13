@@ -10,6 +10,7 @@ use DateTime;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpKernel\Attribute\MapRequestPayload;
+use Symfony\Component\HttpKernel\Exception\ConflictHttpException;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
@@ -32,7 +33,7 @@ class TaskNotificationController extends AbstractController
     {
         $task = $this->getTask($request->task_id);
         $this->checkAccess($task->user->id);
-
+        $this->checkNotificationExists($request);
         $taskNotification = new TaskNotification();
         $this->setTaskNotificationProperties($taskNotification, $task, $request);
 
@@ -48,7 +49,7 @@ class TaskNotificationController extends AbstractController
         $taskNotification = $this->getTaskNotification($id);
         
         $this->checkAccess($taskNotification->task->user->id);
-
+        $this->checkNotificationExists($request);
         $taskNotification->task = $this->getTask($request->task_id);
         $this->setTaskNotificationProperties($taskNotification, $taskNotification->task, $request);
 
@@ -107,7 +108,22 @@ class TaskNotificationController extends AbstractController
     {
         $taskNotification->task = $task;
         $taskNotification->message = $request->message;
-        $taskNotification->triggerTime = DateTime::createFromFormat('Y-m-d H:i:s', $request->trigger_time);;
+        $taskNotification->triggerTime = DateTime::createFromFormat('Y-m-d H:i:s', $request->trigger_time);
         $taskNotification->notificationType = $request?->notification_type;
+    }
+
+    private function checkNotificationExists(CreateRequest $request): void
+    {
+        $logger = new EchoSQLLogger();
+        $this->entityManager->getConnection()->getConfiguration()->setSQLLogger($logger);
+        $notification = $this->entityManager
+            ->getRepository(TaskNotification::class)
+            ->findBy([
+                'task' => $request->task_id,
+                'triggerTime' => DateTime::createFromFormat('Y-m-d H:i:s', $request->trigger_time),
+            ]);
+        if ($notification) {
+            throw new ConflictHttpException('A notification at the specified time for this task already exists');
+        }
     }
 }
