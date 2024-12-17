@@ -2,9 +2,7 @@
 
 namespace App\Message;
 
-use App\Entity\Task;
-use App\Entity\TaskNotification;
-use Doctrine\ORM\EntityManager;
+use DateTimeInterface;
 
 class TaskNotificationMessage
 {
@@ -12,5 +10,6 @@ class TaskNotificationMessage
         public string $message,
         public string $notificationType,
         public int $taskId,
+        public DateTimeInterface $triggerTime
     ) {}
 }

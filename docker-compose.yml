@@ -34,7 +34,9 @@ services:
     container_name: db_postgres
 
   rabbitmq:
-    image: rabbitmq:4.0.4-management
+    build:
+      context: .
+      dockerfile: _docker/rabbitmq.Dockerfile
     ports:
       - "5672:5672"
       - "15672:15672"

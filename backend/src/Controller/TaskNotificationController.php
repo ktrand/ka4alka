@@ -114,8 +114,6 @@ class TaskNotificationController extends AbstractController
 
     private function checkNotificationExists(CreateRequest $request): void
     {
-        $logger = new EchoSQLLogger();
-        $this->entityManager->getConnection()->getConfiguration()->setSQLLogger($logger);
         $notification = $this->entityManager
             ->getRepository(TaskNotification::class)
             ->findBy([
