@@ -10,7 +10,7 @@ framework:
                     - doctrine_transaction
 
         routing:
-            'App\Message\TaskNotification': async
+            'App\Message\TaskNotificationMessage': async
 
         transports:
             async:

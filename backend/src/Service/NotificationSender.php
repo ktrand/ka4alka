@@ -1,6 +1,5 @@
 <?php
 
-// src/Service/NotificationSender.php
 namespace App\Service;
 
 use App\Message\TaskNotificationMessage;
